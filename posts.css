@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@400;700&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+}
+.container{
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+/*last*/
+.author .authorname{
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 10px;
+	line-height: 102.4%;
+	color: #393939;
+}
+.author .authorgroup{
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 8px;
+	line-height: 102.4%;
+	color: #393939;
+	opacity: 0.7;
+}
+
+.comment__content{
+	padding: 63px 0px;
+}
+.comment__title{
+	font-family: Inter;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 117.52%;
+	color: #393939;
+}
+.comments__desk{
+	margin-top: 23px;
+	display: flex;
+	align-items: center;
+}
+.comments__desk i{
+	font-size: 24px;
+	cursor: pointer;
+}
+.comment__count{
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 102.4%;
+	margin-left: 8px;
+	color: #393939;
+
+}
+.comment__language{
+	margin-left: 30px;
+	font-family: Inter;
+	font-weight: 500;
+	font-size: 23px;
+	line-height: 102.4%;
+	color: #393939;
+}
+.comment__img{
+	margin-top: 58px;
+}
+.comment__text{
+	margin-top: 71px;
+	font-family: Inter;
+	font-size: 18px;
+	line-height: 117.52%;
+	color: #393939;
+}
+.comment__code{
+	margin-top: 58px;
+}
+.comment__profile{
+	margin-top: 79px;
+}
+.comm__proimg{
+	border-radius: 480px;
+}
+.comment__name{
+	margin-top: 14px;
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 102.4%;
+	color: #393939;
+}
+.comment__group{
+	margin-top: 3px;
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 10px;
+	line-height: 102.4%;
+	color: #393939;
+	opacity: 0.7;
+}
+.main__comment{
+	margin-top: 44px;
+	width: 100%;
+	height: 158px;
+	border: 1px solid #393939;
+}
+.comm__btn{
+	margin-top: 32px;
+	width: 130px;
+	height: 48px;
+	background: #0088D4;
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 102.4%;
+	border: 1px solid #0088D4;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+.comment__answers{
+	margin-top: 69px;
+	font-family: Inter;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 117.52%;
+	color: #393939;
+}
+.comments{
+	display: flex;
+	justify-content: center;
+}
+.comment{
+	margin-top: 85px;
+	width: 1016px;
+	height: 201px;
+	background: #FFFFFF;
+	box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	padding: 29px;
+}
+.comment p{
+	font-family: Inter;
+	font-size: 18px;
+	line-height: 131.52%;
+	color: #393939;
+}

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@400;700&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+}
+.container{
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+.logo{
+	width: 43.84px;
+	height: 43.84px;
+	position: absolute; 
+	left: 50px;  
+	top: 55px;
+}
+.starred__content{
+	padding: 50px 0px;
+}
+.star__title{
+	font-family: Inter;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 102.4%;
+	color: #393939
+}
+.starred__comments{
+	margin-top: 48px;
+}
+.question{
+	margin-top: 60px;
+}
+.question__title{
+	width: 826px;
+	height: 55px;
+	left: 510px;
+	top: 207px;
+	background: #0088D4;
+	border-radius: 27px 32px 32px 27px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.question__comm{
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+}
+.question__comm i{
+	font-size: 28px;
+	cursor: pointer;
+}
+.comment__count{
+	margin-left: 8px;
+	font-family: Inter;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 102.4%;
+	color: #393939;
+}
+.comment__language{
+	font-family: Inter;
+	font-weight: 500;
+	font-size: 23px;
+	line-height: 102.4%;
+	color: #393939;
+	margin-left: 30px;
+}
+.question__title p{
+	font-family: Montserrat;
+	font-size: 24px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	color: #FFFFFF;
+}
+.star__button{
+	margin-top: 71px;
+	width: 130px;
+	height: 48px;
+	padding: 18px;
+	left: 510px;
+	top: 700px;
+	border: 1px solid #393939;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.star__btn{
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 102.4%;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #393939;
+}
+

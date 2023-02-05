@@ -1,0 +1,464 @@
+/* Подключение шрифтов */
+/*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@700&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@400;700&display=swap');
+
+
+/* Код */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+}
+.container{
+	max-width: 1390px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+
+.header{
+	position: absolute;
+	width: 100%;
+}
+.header__content{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 40px 100px;
+}
+.header__logo{
+	display: flex;
+	align-items: center;
+}
+.header__logo b{
+	margin-left: 7px;
+	font-family: 'Inter';
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 127%;
+	letter-spacing: -0.02em;
+	color: #393939;
+}
+.header__logo b > b{
+	color: #0088D4;
+}
+.header__text{
+	margin-left: 20px;
+	width: 195px;
+	color: #393939;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 150%;
+	letter-spacing: -0.02em;
+}
+.header__sign{
+	font-family: 'Montserrat';
+	font-weight: 700;
+	width: 175px;
+	height: 49px;
+	background-color: transparent;
+	color: #0088D4;
+	border: 1px solid #0088D4;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.header__sign:hover{
+	background-color: #0088D4;
+	color: #fff;
+	transition: all 0.5s;
+}
+.header__sign:focus{
+	background-color: #0073B2;
+	color: #fff;
+}
+
+
+.hero{
+	background: url(../img/intro-page/background.png) center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.hero__row{
+	display: flex;
+	padding: 184px 100px 0px;
+	max-height: 100vh;
+}
+.hero__blur{
+	position: absolute;
+	top: 70px;
+	left: 80px;
+}
+.hero__item2{
+	position: absolute;
+	left: 730px;
+	top: 104px;
+}
+.hero__item3{
+	position: absolute;
+	left: 130px;
+	bottom: 100px;
+}
+.hero__shadow{
+	position: absolute;
+	left: 220px;
+	bottom: 50px;
+}
+.hero__main{
+	width: 750px;
+	height: 450px;
+}
+.hero__content{
+	margin-left: 67px;
+}
+.hero__sub{
+	width: 257px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hero__subtitle{
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 150%;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+}
+.hero__title{
+	padding-top: 20px;
+	font-weight: 600;
+	font-size: 39px;
+	line-height: 47px;
+	color: #393939;
+}
+.hero__bottom{
+	padding-top: 20px;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.hero__table{
+	position: absolute;
+	top: 26px;
+	left: 0;
+}
+.hero__text{
+	padding-left: 30px;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 150%;
+	color: #393939;
+}
+.hero__sign{
+	margin-top: 25px;
+	width: 300px;
+	height: 79px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #fff;
+	border: 1px solid #0088D4;
+	background-color: #0088D4;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.hero__sign:hover{
+	background-color: #009FF9;
+	transition: all 0.5s;
+}
+.hero__sign:focus{
+	background-color: #0073B2;
+}
+
+
+
+.services{
+	background: url(../img/intro-page/services.png) center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.services__content{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.services__border{
+	width: 100%;
+	height: 520px;
+	border: 1px solid rgba(0, 136, 212, 0.5);
+	border-radius: 25px;
+	padding: 20px;
+}
+.services__main{
+	width: 100%;
+	height: 480px;
+	padding: 80px;
+	background-color: #fff;
+	border-radius: 25px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.services__item{
+	width: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.services__text{
+	padding-top: 44px;
+	text-align: center;
+	font-size: 26px;
+	line-height: 140%;
+	color: #393939;
+}
+
+
+
+.video{
+	background: url(../img/intro-page/video-bg.png) center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.video__content{
+	width: 100%;
+	padding: 72px 0px 0px;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+.video__item1{
+	position: absolute;
+	left: 135px;
+	top: 43px;
+}
+.video__item2{
+	position: absolute;
+	right: 170px;
+	top: 560px;
+	z-index: 2;
+}
+
+
+
+.footer{
+	background: url(../img/intro-page/footer-bg.png) center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.footer__content{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 100px 0px;
+}
+.footer__text{
+	width: 510px;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 58px;
+	color: #F7F7EE;
+}
+.footer__form{
+	width: 596px;
+	margin-left: 36px;
+	background: #fff;
+	border: 13px solid #0088D4;
+	box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.7);
+	border-radius: 27px;
+}
+.footer__form form{
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.footer__title{
+	padding: 0;
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 138.5%;
+	text-align: center;
+	letter-spacing: 0.01em;
+	color: #393939;
+}
+.footer__title2{
+	font-family: Inter;
+	font-size: 23px;
+	line-height: 138.5%;
+	text-align: center;
+	letter-spacing: 0.01em;
+	color: #393939;
+	padding-bottom: 20px;
+}
+.footer__form input{
+	width: 475.68px;
+	height: 86.49px;
+	border: 1px solid #0088D4;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 0px 0px 18px;
+}
+.footer__btn{
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 32px;
+	text-align: center;
+	background-color: #0088D4 !important;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+.footer__form label{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 100%;
+	letter-spacing: 0.01em;
+	color: #555555;
+}
+.footer__check{
+	width: 15px !important;
+	height: 15px !important;
+	margin: 0 !important;
+	background: #393939;
+}
+.footer__a{
+	margin-left: 10px;
+}
+.footer__aa{
+	margin-left: 5px;
+	text-decoration: none;
+}
+.footer__btn:hover{
+	background-color: #009FF9 !important;
+	transition: all 0.5s;
+}
+.footer__btn:focus{
+	background-color: #0073B2 !important;
+}
+
+
+
+/*sign in form*/
+.signin{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.65);
+	top: 0;
+	left: 0;
+	transition: all 0.5s;
+	opacity: 1;
+	visibility: hidden;
+}
+.signin__row{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.signin__form{
+	width: 663px;
+	height: 497px;
+	border-radius: 27px;
+	border: 13px solid #0088D4;
+	background-color: #fff;
+}
+.signin__form form{
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.signin__title{
+	padding: 39px 0px 28px;
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 138.5%;
+	letter-spacing: 0.01em;
+	color: #393939;
+}
+.signin__form form input{
+	width: 475.68px;
+	height: 86.49px;
+	background: #FFF;
+	border: 1px solid #0088D4;
+	border-radius: 5px;
+	color: #606060;
+	padding: 10px;
+	margin-bottom: 22px;
+}
+.signin__btn{
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 32px;
+	background: #0088D4 !important;
+	color: #fff !important;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+.popup__close{
+	position: absolute;
+	top: 70px;
+	right: 370px;
+	width: 41px;
+	height: 85px;
+	font-family: Montserrat;
+	font-weight: 400;
+	font-size: 70px;
+	line-height: 85px;
+	color: #FFFFFF;
+	cursor: pointer;
+	transform: rotate(-45deg);
+}
+.signin__btn:hover{
+	background-color: #009FF9 !important;
+	transition: all 0.5s;
+}
+.signin__btn:focus{
+	background-color: #0073B2 !important;
+}
+
+
+
+
+
+
+
+
+
